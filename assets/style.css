@@ -21,3 +21,31 @@
         background: red;
         height: 150px;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+.boks2 {
+    background: pink;
+    padding: 10px;
+  }
+  
+  .boks2row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .boks2row > div {
+    flex: 1;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* højere end de røde */
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+  }
+ 
