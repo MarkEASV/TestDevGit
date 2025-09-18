@@ -1,5 +1,12 @@
-.boks1{
+* {
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background: pink;
+    padding: 10px;
+    
 }
 
 .boks3row {
@@ -7,6 +14,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    margin-bottom: 10px;
+
 
   }
 
@@ -22,14 +31,10 @@
         height: 150px;
   }
 
-  * {
-    margin: 0;
-    padding: 0;
-}
+
 
 .boks2 {
-    background: pink;
-    padding: 10px;
+    margin-bottom: 10px;
   }
   
   .boks2row {
